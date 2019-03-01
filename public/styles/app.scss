@@ -1,0 +1,12 @@
+@import 'base/variables.scss';
+
+//foundation styles
+@import 'base/foundation-settings';
+@import 'foundation';
+@include foundation-everything;
+
+//custom styles
+@import 'base/nav';
+@import 'base/base';
+@import 'base/signup';
+@import 'base/forms';
